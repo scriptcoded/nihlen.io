@@ -1,0 +1,42 @@
+body {
+  font-family: 'Comfortaa', cursive;
+}
+
+.logo {
+  width: 100%;
+  height: auto;
+}
+
+.console {
+  margin-top: 2rem;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 3rem;
+}
+
+.console .line {
+  line-height: 1em;
+}
+
+.cursor-blink {
+  -webkit-animation: 1s blink step-end infinite;
+          animation: 1s blink step-end infinite;
+}
+
+@-webkit-keyframes blink {
+  from, to {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+@keyframes blink {
+  from, to {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+/*# sourceMappingURL=main.css.map */
